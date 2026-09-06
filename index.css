@@ -1,0 +1,14 @@
+.furniture-card {
+  margin-bottom: 20px;
+  padding: 10px;
+  max-width: 300px;
+}
+
+.furniture-card__original-price {
+  color: grey;
+  font-size: 0.9rem;
+}
+
+.furniture-card__sales-price {
+  color: green;
+}
