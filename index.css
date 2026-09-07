@@ -1,14 +1,55 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+}
+
+body {
+  max-width: 97vw;
+  background-color: #f2f2f2;
+  margin: 0 auto;
+}
+h1 {
+  margin-bottom: 7px;
+}
+h2 {
+  margin-bottom: 7px;
+}
+
+header > p {
+  margin-bottom: 10px;
+}
+
+.furniture-card > p {
+  margin-bottom: 10px;
+}
+
 .furniture-card {
   margin-bottom: 20px;
+
   padding: 10px;
-  max-width: 300px;
+  max-width: 400px;
+  background-color: white;
+  border-radius: 2px;
 }
 
 .furniture-card__original-price {
   color: grey;
-  font-size: 0.9rem;
+  font-size: 0.9em;
 }
 
 .furniture-card__sales-price {
   color: green;
+  font-size: 1.2em;
+}
+
+.furniture-card__cta {
+  padding: 10px;
+  color: white;
+  background-color: green;
+  border-radius: 3px;
+  border: none;
+  margin-bottom: 7px;
+  margin-top: 7px;
+  width: 100%;
 }
